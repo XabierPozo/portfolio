@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Xabier Pozo - Portfolio</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card: #1e293b;
+      --text: #f8fafc;
+      --accent: #38bdf8;
+      --muted: #94a3b8;
+    }
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+    .card {
+      background: var(--card);
+      border-radius: 16px;
+      padding: 2.5rem;
+      max-width: 600px;
+      width: 90%;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+      border: 1px solid #334155;
+    }
+    h1 { margin: 0 0 0.5rem 0; color: var(--accent); }
+    h2 { font-size: 1.1rem; color: var(--muted); font-weight: 400; margin-top: 0; }
+    p { line-height: 1.6; color: #cbd5e1; }
+    .tags { display: flex; gap: 0.5rem; flex-wrap: wrap; margin: 1.5rem 0; }
+    .tag {
+      background: #0284c720;
+      color: var(--accent);
+      border: 1px solid var(--accent);
+      padding: 0.3rem 0.8rem;
+      border-radius: 20px;
+      font-size: 0.85rem;
+    }
+    .links { display: flex; gap: 1rem; margin-top: 2rem; }
+    .btn {
+      color: var(--text);
+      text-decoration: none;
+      background: #334155;
+      padding: 0.6rem 1.2rem;
+      border-radius: 8px;
+      transition: 0.2s;
+    }
+    .btn:hover { background: var(--accent); color: var(--bg); }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Xabier Pozo Pozo</h1>
+    <h2>Técnico de Redes y Sistemas | Estudiante de Ingeniería Informática</h2>
+    <p>
+      Profesional enfocado en la administración de redes, infraestructura IT y desarrollo de software.
+    </p>
+    <div class="tags">
+      <span class="tag">Linux / Windows Server</span>
+      <span class="tag">Redes / DNS / DHCP</span>
+      <span class="tag">Java / Python / JS</span>
+    </div>
+    <div class="links">
+      <a href="https://github.com/XabierPozo" target="_blank" class="btn">GitHub</a>
+      <a href="https://www.linkedin.com/in/xabier-pozo-pozo-571209258" target="_blank" class="btn">LinkedIn</a>
+      <a href="mailto:XPutzua@proton.me" class="btn">Contacto</a>
+    </div>
+  </div>
+</body>
+</html>
